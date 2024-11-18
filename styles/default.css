@@ -14,3 +14,8 @@ main{
 *{
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'Crazytime';
+    src: url(assets\Crazytime-Regular.otf) format(opentype);
+}
