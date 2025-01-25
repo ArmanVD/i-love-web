@@ -1,23 +1,27 @@
 # I Love Web
 
-Learning journal, blog, digital gardening.
+Learning journal en digital garden... jouw  persoonlijke i-love-web-site is een verzameling zaken die met elkaar jouw frontenderschap tentoon stellen. Het bestaat uit een [learning journal](#learning-journal) welke je routinematig, het liefst elke dag, bijhoudt. Daarnaast is er de [digital garden](#digital-garden), een site waarbij de vorm compleet vrij staat.
 
-## Briefing
+**20% regel** Bij sommige bedrijven mag je 20% van je tijd besteden aan je eigen projecten. Bij FDND reserveer je 20% van je tijd voor het bijhouden van je learning journal en het werken aan jouw Digital Garden.
 
-Hou je leerproces (chronologisch) bij.
+Fork en clone deze leertaak en maak 'm van jezelf.
+
+## Learning journal
+
+Houd je leerproces routinematig (chronologisch) bij.
 Noteer aantekeningen, interessante links en bronnen die je niet wil vergeten waar je later nog naar wil kijken. 
 Voeg je sketchnotes en aantekeningen van de Web Love Web presentaties en andere lezingen toe. 
-Maak hier je eigen vette, creatieve weblog, link dump, of digital garden ... 
 
-**20% regel** 20% van je tijd besteed je aan je eigen website. 
+## Digital Garden
 
+Maak jouw eigen vette, creatieve weblog, link dump, of playground... Hiermee ga je experimenteren en nieuwe technieken uitproberen. Niks moet, alles mag.
+
+NB: Je kunt een eigen domeinnaam koppelen aan jouw etalage. Vraag Justus om tips of hulp als je dit wilt doen.
 
 
 ## Doel van deze opdracht
 
 Je leert aantekeningen bijhouden en gestructureerd studeren. Tijdens de Retrospect ga je regelmatig terugkijken naar wat je allemaal hebt gedaan en geleerd. Daarvoor heb je de I Love Web nodig als bewijslast. 
-
-
 
 ### Semester 1
 
@@ -25,8 +29,8 @@ Maak met HTML, CSS en JS je eigen statische website. Hou je voortgang bij in de 
 
 ### Semester 2
 
-Maak met Node, Express en EJS een doorontwikkeling op je statische site uit Semester 1. Neem alle content uit Semester 1 mee, en maak hiermee een dynamische, interactieve site.
+Maak met Node, Express en EJS een doorontwikkeling op je statische site uit Semester 1. Neem alle content uit Semester 1 mee, en maak hiermee een dynamische, interactieve site. Als je in Semester 1 in je Wiki hebt gewerkt, kijk dan eens of je die [kunt exporteren](https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages#adding-or-editing-wiki-pages-locally) en anders in kunt zetten in je site. Misschien kun je er wel een (Markdown) database van maken.
 
 ### Semester 3 en 4
 
-Maak met Sveltekit, 11ty, Astro, of een ander framework een doorontwikkeling van je website uit Semester 3. Neem alle eerdere content mee als Markdown files, met bijvoorbeeld front matter als metadata, en maak met componenten je dynamische portfolio.
+Maak met Sveltekit, 11ty, Astro, of een ander framework een doorontwikkeling van je website uit Semester 2. Neem alle eerdere content mee als Markdown files, [hergebruik je Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages#adding-or-editing-wiki-pages-locally) als je dat nog niet hebt gedaan. Gebruik bijvoorbeeld front matter als metadata, of zet een database met gestructureerde content op, en maak met componenten je dynamische portfolio met weblog. Denk ook na over hoe je je content kunt hergebruiken als je besluit naar een ander framework over te stappen.
