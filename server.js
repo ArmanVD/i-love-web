@@ -1,5 +1,8 @@
 import express from "express";
 import { Liquid } from "liquidjs";
+import { readdir, readFile } from "node:fs/promises";
+
+const files = await readdir("content");
 
 const app = express();
 
@@ -18,7 +21,12 @@ app.get("/", async function (request, response) {
 });
 
 app.get("/wiki", async function (request, response) {
-  response.render("wiki.liquid");
+  response.render("wiki.liquid", { files: files });
+});
+
+app.get("/wiki/:slug", async function (req, res) {
+  const fileContents = await readFile("content/" + req.params.slug + ".md", { encoding: "utf8" });
+  res.render("article.liquid", { fileContents: fileContents });
 });
 
 app.set("port", process.env.PORT || 8000);
