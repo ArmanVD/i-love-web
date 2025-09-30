@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I Love Web</title>
+  </head>
+
+  <style>
+    html {
+      background-color: olive;
+      align-items: center;
+      justify-items: center;
+    }
+    body {
+      height: 100dvh;
+      width: 100dvw;
+    }
+
+    a {
+      --h: 28;
+      --s: 87%;
+      --l: 67%;
+      --o: 1;
+      text-decoration: none;
+      color: hsl(var(--h) var(--s) var(--l) / var(--o));
+      width: 100%;
+
+      &:hover {
+        --l: 57%;
+        --o: 0.7;
+      }
+
+      &:active {
+        --l: 47%;
+        --o: 0.4;
+      }
+    }
+    li {
+      list-style: none;
+      padding: 2em;
+      width: 100%;
+      text-align: center;
+    }
+  </style>
+  <ul>
+    <li><a href=""> Ik ben SANDYBROWN motherfuckers</a></li>
+    <li><a href=""> Ik ben SANDYBROWN motherfuckers</a></li>
+    <li><a href=""> Ik ben SANDYBROWN motherfuckers</a></li>
+    <li><a href=""> Ik ben SANDYBROWN motherfuckers</a></li>
+  </ul>
+</html>
+
+// LAB, HWB, LCH en OKLCH kleurenruimtes en display-p3 // https://css-tricks.com/new-css-color-features-preview/
